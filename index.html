@@ -12,7 +12,6 @@ window.EMBR.mount({
 	type: 'CheckoutLaunchButton',
 	options: {
 		checkoutId: '01GC9AZV65S940RNN80TVCX9RY',
-		// Custom settings here
 	}
 })
 /* END EMBED CODE */
@@ -20,28 +19,6 @@ window.EMBR.mount({
 
 </head>
 <body>
-
-    <form action="http://localhost:4000/create-bot" method="POST">
-        <label>Name of The project: </label>
-        <input type="text" placeholder="Name" name="name"><br><br>
-        <label>SmartContract Instance: </label>
-        <input type="text" placeholder="Smart contract Id" name="contract"><br><br>
-        <label>Telegram Token ID </label>
-        <input type="text" placeholder="Telegram Token ID" name="telegramtoken"><br><br>
-        <label>Telegram path for price </label>
-        <input type="text" placeholder="Telegram path for price" name="tele_price_path"><br><br>
-        <button>Submit</button>
-    </form>
-
-<script>
-window.EMBR.mount({
-	type: 'CheckoutModalButton',
-	options: {
-		checkoutId: '01GC9AZV65S940RNN80TVCX9RY',
-		selector: '#checkout-modal'
-	}
-})
-</script>
-
+<h1>Embr Checkout Test</h1>
 </body>
 </html>

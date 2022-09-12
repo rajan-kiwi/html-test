@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create a project</title>
+
+<script type="text/javascript" async src="https://cdn.embr.org/embeddables.es.js"></script>
+<script type="text/javascript">
+(function(){if(!window.EMBR){const t=[];window.EMBR={_init:t,mount:e=>t.push(e)}}})()
+/* START EMBED CODE */
+
+/* END EMBED CODE */
+</script>
+
+</head>
+<body>
+
+    <form action="http://localhost:4000/create-bot" method="POST">
+        <label>Name of The project: </label>
+        <input type="text" placeholder="Name" name="name"><br><br>
+        <label>SmartContract Instance: </label>
+        <input type="text" placeholder="Smart contract Id" name="contract"><br><br>
+        <label>Telegram Token ID </label>
+        <input type="text" placeholder="Telegram Token ID" name="telegramtoken"><br><br>
+        <label>Telegram path for price </label>
+        <input type="text" placeholder="Telegram path for price" name="tele_price_path"><br><br>
+        <button>Submit</button>
+    </form>
+<script>
+
+
+window.EMBR.mount({
+	type: 'CheckoutModalButton',
+	options: {
+		checkoutId: '01GC9AZV65S940RNN80TVCX9RY',
+		selector: '#checkout-modal'
+	}
+})
+
+
+// window.EMBR.mount({
+// 	type: 'CheckoutLaunchButton',
+// 	options: {
+// 		checkoutId: '01GC9AZV65S940RNN80TVCX9RY',
+// 		// Custom settings here
+// 	}
+// })
+
+</script>
+
+</body>
+</html>

@@ -8,7 +8,13 @@
 <script type="text/javascript">
 (function(){if(!window.EMBR){const t=[];window.EMBR={_init:t,mount:e=>t.push(e)}}})()
 /* START EMBED CODE */
-
+window.EMBR.mount({
+	type: 'CheckoutLaunchButton',
+	options: {
+		checkoutId: '01GC9AZV65S940RNN80TVCX9RY',
+		// Custom settings here
+	}
+})
 /* END EMBED CODE */
 </script>
 
@@ -26,9 +32,8 @@
         <input type="text" placeholder="Telegram path for price" name="tele_price_path"><br><br>
         <button>Submit</button>
     </form>
+
 <script>
-
-
 window.EMBR.mount({
 	type: 'CheckoutModalButton',
 	options: {
@@ -36,16 +41,6 @@ window.EMBR.mount({
 		selector: '#checkout-modal'
 	}
 })
-
-
-// window.EMBR.mount({
-// 	type: 'CheckoutLaunchButton',
-// 	options: {
-// 		checkoutId: '01GC9AZV65S940RNN80TVCX9RY',
-// 		// Custom settings here
-// 	}
-// })
-
 </script>
 
 </body>
